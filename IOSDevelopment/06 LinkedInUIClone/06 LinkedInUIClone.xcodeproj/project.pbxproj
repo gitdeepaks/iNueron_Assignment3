@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C220EFBC28E4000A00CD88E1 /* _6_LinkedInUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220EFBB28E4000A00CD88E1 /* _6_LinkedInUICloneApp.swift */; };
+		C220EFBE28E4000A00CD88E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220EFBD28E4000A00CD88E1 /* ContentView.swift */; };
+		C220EFC028E4000B00CD88E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C220EFBF28E4000B00CD88E1 /* Assets.xcassets */; };
+		C220EFC328E4000B00CD88E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C220EFC228E4000B00CD88E1 /* Preview Assets.xcassets */; };
+		C249A91228E474DF00CB5708 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91128E474DF00CB5708 /* SearchBarView.swift */; };
+		C249A91528E4788D00CB5708 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91428E4788D00CB5708 /* PostModel.swift */; };
+		C249A91728E4789B00CB5708 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91628E4789B00CB5708 /* NetworkModel.swift */; };
+		C249A91928E47A9600CB5708 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91828E47A9600CB5708 /* InvitationView.swift */; };
+		C249A91B28E4853B00CB5708 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91A28E4853B00CB5708 /* MyNetworkScreen.swift */; };
+		C249A91D28E48BCA00CB5708 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91C28E48BCA00CB5708 /* PostCardView.swift */; };
+		C249A91F28E499F300CB5708 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A91E28E499F300CB5708 /* ProfileAndPostView.swift */; };
+		C249A92128E49B4600CB5708 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A92028E49B4600CB5708 /* PostView.swift */; };
+		C249A92328E49E4D00CB5708 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A92228E49E4D00CB5708 /* HomeScreenView.swift */; };
+		C249A92528E49F6100CB5708 /* TabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A92428E49F6100CB5708 /* TabScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C220EFB828E4000A00CD88E1 /* 06 LinkedInUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06 LinkedInUIClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C220EFBB28E4000A00CD88E1 /* _6_LinkedInUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _6_LinkedInUICloneApp.swift; sourceTree = "<group>"; };
+		C220EFBD28E4000A00CD88E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C220EFBF28E4000B00CD88E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C220EFC228E4000B00CD88E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C249A91128E474DF00CB5708 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C249A91428E4788D00CB5708 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		C249A91628E4789B00CB5708 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		C249A91828E47A9600CB5708 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		C249A91A28E4853B00CB5708 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		C249A91C28E48BCA00CB5708 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		C249A91E28E499F300CB5708 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		C249A92028E49B4600CB5708 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		C249A92228E49E4D00CB5708 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		C249A92428E49F6100CB5708 /* TabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C220EFB528E4000A00CD88E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C220EFAF28E4000A00CD88E1 = {
+			isa = PBXGroup;
+			children = (
+				C220EFBA28E4000A00CD88E1 /* 06 LinkedInUIClone */,
+				C220EFB928E4000A00CD88E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C220EFB928E4000A00CD88E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C220EFB828E4000A00CD88E1 /* 06 LinkedInUIClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C220EFBA28E4000A00CD88E1 /* 06 LinkedInUIClone */ = {
+			isa = PBXGroup;
+			children = (
+				C249A91328E4787E00CB5708 /* Models */,
+				C249A91028E4748600CB5708 /* Views */,
+				C220EFBB28E4000A00CD88E1 /* _6_LinkedInUICloneApp.swift */,
+				C220EFBD28E4000A00CD88E1 /* ContentView.swift */,
+				C220EFBF28E4000B00CD88E1 /* Assets.xcassets */,
+				C220EFC128E4000B00CD88E1 /* Preview Content */,
+			);
+			path = "06 LinkedInUIClone";
+			sourceTree = "<group>";
+		};
+		C220EFC128E4000B00CD88E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C220EFC228E4000B00CD88E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C249A91028E4748600CB5708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C249A91128E474DF00CB5708 /* SearchBarView.swift */,
+				C249A91828E47A9600CB5708 /* InvitationView.swift */,
+				C249A91A28E4853B00CB5708 /* MyNetworkScreen.swift */,
+				C249A91C28E48BCA00CB5708 /* PostCardView.swift */,
+				C249A91E28E499F300CB5708 /* ProfileAndPostView.swift */,
+				C249A92028E49B4600CB5708 /* PostView.swift */,
+				C249A92228E49E4D00CB5708 /* HomeScreenView.swift */,
+				C249A92428E49F6100CB5708 /* TabScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C249A91328E4787E00CB5708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C249A91428E4788D00CB5708 /* PostModel.swift */,
+				C249A91628E4789B00CB5708 /* NetworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C220EFB728E4000A00CD88E1 /* 06 LinkedInUIClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C220EFC628E4000B00CD88E1 /* Build configuration list for PBXNativeTarget "06 LinkedInUIClone" */;
+			buildPhases = (
+				C220EFB428E4000A00CD88E1 /* Sources */,
+				C220EFB528E4000A00CD88E1 /* Frameworks */,
+				C220EFB628E4000A00CD88E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06 LinkedInUIClone";
+			productName = "06 LinkedInUIClone";
+			productReference = C220EFB828E4000A00CD88E1 /* 06 LinkedInUIClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C220EFB028E4000A00CD88E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C220EFB728E4000A00CD88E1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C220EFB328E4000A00CD88E1 /* Build configuration list for PBXProject "06 LinkedInUIClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C220EFAF28E4000A00CD88E1;
+			productRefGroup = C220EFB928E4000A00CD88E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C220EFB728E4000A00CD88E1 /* 06 LinkedInUIClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C220EFB628E4000A00CD88E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C220EFC328E4000B00CD88E1 /* Preview Assets.xcassets in Resources */,
+				C220EFC028E4000B00CD88E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C220EFB428E4000A00CD88E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C249A92528E49F6100CB5708 /* TabScreenView.swift in Sources */,
+				C249A91D28E48BCA00CB5708 /* PostCardView.swift in Sources */,
+				C249A91F28E499F300CB5708 /* ProfileAndPostView.swift in Sources */,
+				C220EFBE28E4000A00CD88E1 /* ContentView.swift in Sources */,
+				C249A91528E4788D00CB5708 /* PostModel.swift in Sources */,
+				C249A91228E474DF00CB5708 /* SearchBarView.swift in Sources */,
+				C249A91728E4789B00CB5708 /* NetworkModel.swift in Sources */,
+				C220EFBC28E4000A00CD88E1 /* _6_LinkedInUICloneApp.swift in Sources */,
+				C249A92328E49E4D00CB5708 /* HomeScreenView.swift in Sources */,
+				C249A91B28E4853B00CB5708 /* MyNetworkScreen.swift in Sources */,
+				C249A92128E49B4600CB5708 /* PostView.swift in Sources */,
+				C249A91928E47A9600CB5708 /* InvitationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C220EFC428E4000B00CD88E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C220EFC528E4000B00CD88E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C220EFC728E4000B00CD88E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"06 LinkedInUIClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deepakdevops.com.-6-LinkedInUIClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C220EFC828E4000B00CD88E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"06 LinkedInUIClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deepakdevops.com.-6-LinkedInUIClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C220EFB328E4000A00CD88E1 /* Build configuration list for PBXProject "06 LinkedInUIClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220EFC428E4000B00CD88E1 /* Debug */,
+				C220EFC528E4000B00CD88E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C220EFC628E4000B00CD88E1 /* Build configuration list for PBXNativeTarget "06 LinkedInUIClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C220EFC728E4000B00CD88E1 /* Debug */,
+				C220EFC828E4000B00CD88E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C220EFB028E4000A00CD88E1 /* Project object */;
+}
